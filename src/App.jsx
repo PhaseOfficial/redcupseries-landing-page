@@ -29,9 +29,8 @@ const App = () => {
     <div class="footer-section">
       <h3>Follow Us</h3>
       <div class="social-media">
-        <a href="#"><FaFacebookF /></a>
-        <a href="#"><FaXTwitter /></a>
-        <a href="#"><FaSquareInstagram /></a>
+        <a href="https://www.facebook.com/red.cup.series"><FaFacebookF /></a>
+        <a href="https://www.instagram.com/red_cup_series_pvt_ltd/"><FaSquareInstagram /></a>
       </div>
     </div>
   </div>
