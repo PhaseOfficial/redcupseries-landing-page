@@ -1,9 +1,31 @@
 
 .land-content{
   width: 100%;
-  background-color:#43525c;
+  background-color:#13171a;
+
 }
 
+
+.zigzags{
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.header1 {
+  /* Your existing styles */
+  opacity: 0; /* Set initial opacity to 0 */
+  transform: translateY(-20px); /* Set initial transform to move it up */
+  transition: opacity 0.8s, transform 0.8s; /* Add transition properties */
+  align-items: center;
+}
+
+/* Apply the styles when the element is in view */
+.header1.aos-animate {
+  opacity: 1; /* Fade in the element */
+  transform: translateY(0); /* Move the element back to its original position */
+}
 
 
 .hero{
@@ -15,11 +37,28 @@
   display: grid;
 
 }
+
+
+.marquee-item {
+  flex-shrink: 0;
+  width: 200px; /* Adjust the width of each image */
+  margin-right: 20px; /* Adjust the spacing between images */
+}
+
+.marquee-item img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-430%); }
+}
 .logo-home{
   width: 100vh;
   position: relative;
   z-index: 10;
-  top: -15%;
+  top: -25%;
   transform: translateY(-50%);
 }
 .logo-div{
@@ -30,6 +69,16 @@
   justify-content: center;
   
 }
+
+.border-line {
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.headzig{
+  margin-bottom: 5rem;
+}
+
 .blue{
   position: absolute;
   inset: 0;
@@ -54,6 +103,9 @@
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.marquees{
+  margin-bottom: 10rem;
 }
 
 @media (max-width: 1200px) {
@@ -161,13 +213,19 @@
 }
 .max-w-3xl {
   max-width: 48rem;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
-
+.marqueehead{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
 .text-center {
   text-align: center;
 }
@@ -217,28 +275,29 @@
   color: #fff;
 }
 
-.mb-4 {
+.mb-4{
   margin-bottom: 5rem;
- 
   
 }
-.header1{
-  display: flex;
-  flex-direction: row;
-}
+
 .text-xl {
   font-size: 1.25rem;
 }
-
+.items{
+  margin-top: 10vh;
+}
 .text-gray-400 {
   color: #fff;
 }
 .logo3{
   width: 15rem;
   top: 10%;
-  transform: translateY(-25%);
+  align-items: center;
 }
-
+.section_header{
+  margin-bottom: 15vh;
+  margin-top: 10vh;
+}
 .max-w-sm {
   max-width: 20rem;
 }
@@ -351,11 +410,11 @@ h4 {
 .icon1{
   width: 5rem;
 }
+.iconrcs{
+  height:4rem;
+}
 .sc{
   width: 40rem;
-}
-.max-w-6xl {
-  max-width: 72rem;
 }
 
 .mx-auto {
@@ -446,7 +505,7 @@ h4 {
 }
 
 .bg-green-200 {
-  background-color: rgba(83, 86, 248, 0.836);
+  background-color: rgba(253, 5, 5, 0.836);
 }
 
 .rounded-full {
@@ -483,6 +542,7 @@ h2 {
   
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+    margin-top: 2rem;
   }
   
   .md\:gap-6 {
@@ -571,7 +631,7 @@ h2 {
   }
 }
 .font-architects-daughter {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Architects Dau", cursive;
 }
 
 .text-xl {
@@ -579,7 +639,7 @@ h2 {
 }
 
 .text-purple-600 {
-  color: rgba(83, 248, 97, 0.836);
+  color: rgba(253, 5, 5, 0.836);
 }
 
 .mb-2 {
@@ -639,7 +699,7 @@ h3 {
 }
 
 .text-green-500 {
-  color: rgba(83, 248, 97, 0.836);
+  color: rgba(223, 192, 16, 0.836);
 }
 
 .mr-2 {
@@ -667,3 +727,47 @@ h3 {
   }
 }
 
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex-basis: 30%;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.footer-section p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}

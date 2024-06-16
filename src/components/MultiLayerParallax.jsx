@@ -2,7 +2,6 @@ import React from 'react'
 import { useRef } from 'react'
 import weblogo from '../assets/images/weblogo.png';
 import blue from '../assets/images/bluenebula.jpeg';
-import clouds from '../assets/images/ocean.png';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 
@@ -30,8 +29,8 @@ const MultiLayerParallax = () => {
                                      }}/>
 
             
-    <div className='clouds'
-      style={{
+<div className='clouds'
+  style={{
     display: 'flex',
     marginTop: '30vh',
     alignItems: 'center',
@@ -40,8 +39,9 @@ const MultiLayerParallax = () => {
     fontWeight: 'bold',
     color: 'white',
     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+    fontFamily: 'Montserrat Black, sans-serif'
   }}>
-  OUR DESIGNS ARE OUT OF THIS WORLD
+  OUR CREATIVITY IS FROM OUT OF THIS WORLD
 </div>
 
             
