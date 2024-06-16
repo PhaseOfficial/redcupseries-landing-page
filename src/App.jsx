@@ -6,7 +6,6 @@ import Zigzag from './components/Zigzag';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaFacebookF } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 
 const App = () => {
