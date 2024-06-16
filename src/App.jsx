@@ -5,8 +5,6 @@ import Blocks from '../src/components/Blocks'
 import Zigzag from './components/Zigzag';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FaFacebookF } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
 
 const App = () => {
   return (
@@ -24,14 +22,6 @@ const App = () => {
     </div>
     <footer>
   <div class="footer-content">
-    
-    <div class="footer-section">
-      <h3>Follow Us</h3>
-      <div class="social-media">
-        <a href="https://www.facebook.com/red.cup.series"><FaFacebookF /></a>
-        <a href="https://www.instagram.com/red_cup_series_pvt_ltd/"><FaSquareInstagram /></a>
-      </div>
-    </div>
   </div>
   <div class="footer-bottom">
     <p>&copy; 2024 redcupseries. All rights reserved.</p>
