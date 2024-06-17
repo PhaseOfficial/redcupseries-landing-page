@@ -283,7 +283,7 @@ const zigzag = () => {
   <p className="text-xl text-gray-400">RedCupSeries is a brand that prioritizes exceptional quality in its products, fostering a vibrant lifestyle for its customers. Committed to excellence, the brand empowers individuals to embrace a fulfilling and dynamic way of living.</p>
   
   </div>
-      </div>
+      
 
      
       <div className='marquees'>
@@ -322,6 +322,7 @@ const zigzag = () => {
 
 
         <Marqueeimg />
+        </div>
         </div>
     </section>
   )

@@ -7,11 +7,13 @@
 
 
 .zigzags{
-
+  width: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
 
 }
+
+
 
 .header1 {
   /* Your existing styles */
@@ -19,6 +21,7 @@
   transform: translateY(-20px); /* Set initial transform to move it up */
   transition: opacity 0.8s, transform 0.8s; /* Add transition properties */
   align-items: center;
+  width: 100%;
 }
 
 /* Apply the styles when the element is in view */
@@ -229,6 +232,25 @@
 .text-center {
   text-align: center;
 }
+.zigzags img {
+  width: 100%;/* Set a maximum width for the image */
+}
+
+@media (max-width: 768px) {
+  .zigzags img {
+    width: 90%;/* Reduce the max width for smaller screens */
+  }
+}
+
+.blue img {
+  width: 100%;/* Set a maximum width for the image */
+}
+
+@media (max-width: 768px) {
+  .blue img {
+    width: 90%;/* Reduce the max width for smaller screens */
+  }
+}
 
 .pb-12 {
   padding-bottom: 3rem;
@@ -294,6 +316,8 @@
   top: 10%;
   align-items: center;
 }
+
+
 .section_header{
   margin-bottom: 15vh;
   margin-top: 10vh;
