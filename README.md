@@ -2,7 +2,7 @@
 This ia a landing page for rcs
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-website on github pages
+website on github pages https://phaseofficial.github.io/redcupseries/
 
 Currently, two official plugins are available:
 
