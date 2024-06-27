@@ -198,9 +198,7 @@
 }
 
 @media (max-width: 768px) {
-  .land-content {
-    padding: 1rem;
-  }
+
 
   .hero {
     place-items: start;
@@ -665,23 +663,8 @@ h2 {
 .lg\:col-span-6 {
   grid-column: span 6 / span 6;
 }
-@media (min-width: 768px) {
-  .md\:pr-4 {
-    padding-right: 1rem;
-  }
-}
 
-@media (min-width: 1024px) {
-  .lg\:pr-12 {
-    padding-right: 3rem;
-  }
-}
 
-@media (min-width: 1280px) {
-  .xl\:pr-16 {
-    padding-right: 4rem;
-  }
-}
 .font-architects-daughter {
   font-family: "Architects Dau", cursive;
 }
@@ -760,23 +743,6 @@ h3 {
 
 .shrink-0 {
   flex-shrink: 0;
-}
-@media (min-width: 768px) {
-  .md\:pl-4 {
-    padding-left: 1rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:pl-12 {
-    padding-left: 3rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:pl-16 {
-    padding-left: 4rem;
-  }
 }
 
 footer {
