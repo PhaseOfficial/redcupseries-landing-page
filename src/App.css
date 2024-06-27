@@ -41,6 +41,33 @@
 
 }
 
+/* Small Devices (Phones) */
+@media (max-width: 767px) {
+  .hero {
+    height: 80vh;
+  }
+}
+
+/* Medium Devices (Tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero {
+    height: 90vh;
+  }
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero {
+    height: 100vh;
+  }
+}
+
+/* Extra Large Devices (Larger Desktops) */
+@media (min-width: 1200px) {
+  .hero {
+    height: 100vh;
+  }
+}
 
 .marquee-item {
   flex-shrink: 0;
@@ -109,6 +136,7 @@
 }
 .marquees{
   margin-bottom: 10rem;
+  margin: 0 20px;
 }
 
 @media (max-width: 1200px) {
