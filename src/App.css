@@ -38,35 +38,7 @@
   position: relative;
   place-items: center;
   display: grid;
-
-}
-
-/* Small Devices (Phones) */
-@media (max-width: 767px) {
-  .hero {
-    height: 80vh;
-  }
-}
-
-/* Medium Devices (Tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
-  .hero {
-    height: 90vh;
-  }
-}
-
-/* Large Devices (Desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .hero {
-    height: 100vh;
-  }
-}
-
-/* Extra Large Devices (Larger Desktops) */
-@media (min-width: 1200px) {
-  .hero {
-    height: 100vh;
-  }
+  margin: 0;
 }
 
 .marquee-item {
@@ -176,6 +148,7 @@
     position: relative;
     place-items: center;
     display: grid;
+    margin: 0;
   }
 
   .logo-div {
@@ -190,6 +163,7 @@
     position: relative;
     place-items: center;
     display: grid;
+    margin: 0;
   }
 
   .logo-div {
@@ -207,6 +181,7 @@
     position: relative;
     place-items: center;
     display: grid;
+    margin: 0;
   }
 
   .logo-div {
