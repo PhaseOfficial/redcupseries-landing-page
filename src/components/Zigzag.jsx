@@ -6,6 +6,7 @@ import sc5 from '../assets/images/sc5.png';
 import sc6 from '../assets/images/sc6.png';
 import Marqueeimg from '../components/Marqueeimg';
 import Marquee from "react-fast-marquee";
+import Card from './Card';
 
 import d1 from '../assets/images/d1.png';
 import d2 from '../assets/images/d2.png';
@@ -323,6 +324,7 @@ const zigzag = () => {
 
         <Marqueeimg />
         </div>
+        <Card />
         </div>
     </section>
   )
