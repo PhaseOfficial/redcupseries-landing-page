@@ -799,9 +799,6 @@ footer {
 .name {
   font-size: 2em;
   color: #edeff0;
-  display: flex;
-  flex: 1;
-  margin: 10% 20px 0;
 }
 
 .bottom {
@@ -823,7 +820,6 @@ footer {
     margin: 50px 0;
     height: 400x;
     box-shadow: 0 2px 5px #e2c0c0;
-  
     color: #cbd5e0;
   }
 }

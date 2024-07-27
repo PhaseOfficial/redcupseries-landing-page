@@ -15,7 +15,7 @@ const Card = () => {
           color: 'inherit',
           textDecoration: 'none',
         }}><p><IoLogoWhatsapp /> </p> <h2>Send us a message on Whatsapp</h2></a>
-      <a href='tell:+263788147289' style={{
+      <a href='tel:+263788147289' style={{
           color: 'inherit',
           textDecoration: 'none',
         }}><p><IoCallSharp /> </p> <h2>Give us a Call <br/>+263 788 1472 89</h2></a>
