@@ -786,7 +786,7 @@ footer {
 
 .top {
   border-radius: 25px 25px 0 0;
-  height: 150px;
+  height: 100px;
   width: 100%;
   background-color: #333;
   position: absolute;
@@ -799,6 +799,7 @@ footer {
 .name {
   font-size: 2em;
   color: #edeff0;
+  align-items: center;
 }
 
 .bottom {
