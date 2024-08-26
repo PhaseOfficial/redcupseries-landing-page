@@ -2,7 +2,7 @@
   "name": "home",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://PhaseOfficial.github.io/redcupseries",
+  "homepage": "redcupseries.co.zw",
   "type": "module",
   "scripts": {
     "dev": "vite",
