@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logo3 from '../assets/images/real red cup.png';
+import logo3 from '../assets/images/realredcup.png';
 import logops from '../assets/images/ps.png';
 import logoai from '../assets/images/ai.png';
 import logofg from '../assets/images/fg.png';
