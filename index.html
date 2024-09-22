@@ -5,11 +5,24 @@
     <link rel="icon" href="./assets/realredcup-D_HWFJQZ.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RedCupSeries</title>
-    <script type="module" crossorigin src="/redcupseries/assets/index-CZqHwxxn.js"></script>
-    <link rel="stylesheet" crossorigin href="/redcupseries/assets/index-BsvATFJK.css">
+
+    <!-- Corrected file path -->
+    <script type="module" src="./assets/index-CZqHwxxn.js"></script>
+
+    <!-- Corrected file path for CSS and added a fallback -->
+    <link rel="stylesheet" href="./assets/index-BsvATFJK.css">
+    <noscript>
+      <style>
+        /* Fallback styles in case CSS fails to load */
+        body {
+          font-family: Arial, sans-serif;
+          color: #333;
+          background-color: #f0f0f0;
+        }
+      </style>
+    </noscript>
   </head>
   <body>
     <div id="root"></div>
-
   </body>
 </html>
